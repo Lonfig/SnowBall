@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    tools:context=".BlankFragmentZashita">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="399dp"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7EFFFFFF">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shlem"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/btnz1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewshhlem"
+                    android:layout_width="242dp"
+                    android:layout_height="106dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:inputType="textMultiLine"
+                    android:text="\nШЛЕМ\nПрокат на сутки: 150р\nПрокат на тур(3 дня): 400р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnz1"
+                    app:layout_constraintStart_toEndOf="@+id/imageView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewochki"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ochki"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/btnochki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewochki"
+                    android:layout_width="244dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/abc_vector_test"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="ОЧКИ\nПрокат на сутки: 150р\nПрокат на тур(3 дня): 400р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnochki"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewochki" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:layout_marginTop="10sp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewperchatki"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/perchatki"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/btnperchatki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewperchatki"
+                    android:layout_width="244dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/abc_vector_test"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="ПЕРЧАТКИ\nПрокат на сутки: 150р\nПрокат на тур(3 дня): 300р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnperchatki"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewperchatki" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp">
+
+                <ImageView
+                    android:id="@+id/imageViewbalaklava"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/balaklava"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/btnbalaklava"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="244dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/abc_vector_test"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="БАЛАКЛАВА\nПрокат на сутки: 100р\nПрокат на тур(3 дня): 300р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnbalaklava"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewbalaklava" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+    </TableLayout>
+
+
+</FrameLayout>

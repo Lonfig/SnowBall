@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    tools:context=".BlankFragmentLizy">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="399dp"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewlijy"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lijy"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/btnlijy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textlijy"
+                    android:layout_width="242dp"
+                    android:layout_height="106dp"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+
+                    android:text="\nЛЫЖИ\nПрокат на сутки: 300р\nПрокат на тур(3 дня): 800р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnlijy"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewlijy" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewlijy2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lizy2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/btnlijy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewlijy2"
+                    android:layout_width="244dp"
+                    android:layout_height="91dp"
+                    android:background="@drawable/abc_vector_test"
+                    android:fontFamily="@font/montserrat"
+                    android:inputType="textMultiLine"
+                    android:text="ЛЫЖИ + БОТИНКИ + ПАЛКИ\nПрокат на сутки: 500р\nПрокат на тур(3 дня): 1200р"
+                    android:textColor="@color/black"
+                    android:textSize="45px"
+                    app:layout_constraintBottom_toTopOf="@+id/btnlijy2"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewlijy2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="163dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</FrameLayout>
